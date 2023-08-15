@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IB - Contacts</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <a href="home.html"><img src="imgs/inesb.png" alt="fotografia de uma mulher de braços cruzados" class="self-portrait"></a>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="resume.html" class="nav-item">Resume</a></li>
+                <li><a href="works.html" class="nav-item">Works</a></li>
+                <li><a href="contacts.html" class="nav-item selected-nav">Contacts</a></li>
+            </ul>
+        </nav>        
+    </header>
+    <main>
+        <section class="main-home">
+            <h2 class="contacts-title">Want to get in touch?</h2>
+            <div class="contacts">
+                <div class="contacts-form">
+                    <h3 class="message-title">Leave your Message</h3>
+                    <form action="home.html" method="post">
+                        <p>
+                            <label for="name">Name:</label>
+                            <br>
+                            <input type="text" name="contact-info" id="name">
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <br>
+                            <input type="email" name="contact-info" id="email">
+                        </p>
+                        <p>
+                            <label for="message">Message:</label>
+                            <br>
+                            <textarea type="textarea" name="contact-info" id="message"></textarea>
+                        </p>
+                        <input type="submit" value="Send">       
+                    </form>
+                </div>
+                <div class="contacts-info">
+                    <h3 class="contact-info-title">Contact Info</h3>
+                    <ul>
+                        <li class="contact-item">Sintra, Portugal</li>
+                        <li class="contact-item">Email:<br>ines.brasao@gmail.com</li>
+                        <li class="contact-item">Linkedin:<br><a href="https://www.linkedin.com/in/inesbalt" class="contact-link" target="_blank">InesBalt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="footer">Inês Baltazar 2023</p>        
+    </footer>    
+</body>
+</html>
