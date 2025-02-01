@@ -280,5 +280,38 @@ input[type=submit] {
     margin-bottom: 20px;
 }
 
+.maestros-div{
+    position: absolute;
+    top: 350px;
+    padding-left: 8px;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.maestros-title{
+    font-size: 2.2rem;
+    color: black;
+    position: absolute;
+    top: 250px;
+    left: 35%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.maestros-title1:hover {
+    color: #626261;
+}
+
+.maestros-title1{
+    text-decoration: none;
+    color: black;
+}
+
+.maestro-info{
+    width: 400px;
+    text-align: justify;
+
+}
 
 
